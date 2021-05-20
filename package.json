@@ -1,0 +1,30 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "A simple app to create an Authentication System",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaRomeoMike/mean-auth.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Abdul Rafay Modi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaRomeoMike/mean-auth/issues"
+  },
+  "homepage": "https://github.com/AlphaRomeoMike/mean-auth#readme"
+}
